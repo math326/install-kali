@@ -17,9 +17,9 @@ echo "2) Importando chave GPG do Kali..."
 wget -q -O - https://archive.kali.org/archive-key.asc | gpg --dearmor | tee /etc/apt/trusted.gpg.d/kali.gpg > /dev/null
 
 echo "3) Atualizando pacotes..."
-apt update
+sudo apt update
 
 echo "4) Instalando metapacote kali-linux-everything..."
-apt install -y kali-linux-large
+sudo apt install nmap metasploit hydra aircrack-ng john sqlmap burp suite wireshark whatweb -y
 
 echo "Instalação concluída!"
