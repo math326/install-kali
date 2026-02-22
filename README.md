@@ -10,11 +10,8 @@ sudo su
 
 sudo bash install.sh
 
-Ele fará a instalação de ferramentas como:
-Metasploit, Wireshark, Nmap, Aircrack-ng, Burp Suite, Hydra, Gobuster, Sqlmap, John the Ripper, Hashcat, Responder, BloodHound, Maltego, WPScan, Nikto, Impacket scripts, Ettercap, Bettercap, Snort, Tcpdump, Dirbuster / Dirsearch, TheHarvester, Wifite / Wifiphisher, Mimikatz, Netcat, Crunch, BeEF-XSS, Autopsy, DVWA
+ELE FARA A INSTALAÇÃO DE FERRAMENTAS COMO; nmap metasploit-framework hydra aircrack-ng john sqlmap wireshark whatweb
 
-Esse download de conjunto de ferramentas do kali linux pode passar de 20GB 
-então será nescessario ter no minimo 80GB de disco em sua maquina para fazer essa instalação.
 
 🐧PARA INSTALAR FERRAMENTAS DO KALI NO ARCH LINUX DE ESSES COMANDOS:
 
