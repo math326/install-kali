@@ -15,3 +15,12 @@ Metasploit, Wireshark, Nmap, Aircrack-ng, Burp Suite, Hydra, Gobuster, Sqlmap, J
 
 Esse download de conjunto de ferramentas do kali linux pode passar de 20GB 
 então será nescessario ter no minimo 80GB de disco em sua maquina para fazer essa instalação.
+
+PARA INSTALAR FERRAMENTAS DO KALI NO ARCH LINUX DE ESSES COMANDOS
+
+sudo pacman -S curl
+curl -O https://blackarch.org/strap.sh
+chmod +x strap.sh
+sudo su
+bash strap.sh
+sudo pacman -S nmap metasploit hydra aircrack-ng john sqlmap burpsuite wireshark-qt whatweb
