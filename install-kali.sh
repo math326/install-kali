@@ -20,6 +20,6 @@ echo "3) Atualizando pacotes..."
 sudo apt update
 
 echo "4) Instalando metapacote kali-linux-everything..."
-sudo apt install nmap metasploit-framework hydra aircrack-ng john sqlmap wireshark tcpdump ncat whatweb gobuster bettercap tshark -y
+sudo apt install nmap metasploit-framework hydra aircrack-ng john sqlmap wireshark whois tcpdump ncat netcat whatweb gobuster bettercap tshark -y
 
 echo "Instalação concluída!"
