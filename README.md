@@ -1,4 +1,4 @@
-🐲Para instalar todas ferramentas do kali linux em sua maquina Debian ou Ubuntu de esses comandos:
+## **🐲Para instalar todas ferramentas do kali linux em sua maquina Debian de esses comandos:**
 
 git clone git clone https://github.com/math326/install-kali.git
 
@@ -10,10 +10,10 @@ sudo su
 
 sudo bash install.sh
 
-ELE FARA A INSTALAÇÃO DE FERRAMENTAS COMO; nmap metasploit-framework hydra aircrack-ng john sqlmap wireshark whatweb
+## **ELE FARÁ A INSTALAÇÃO DE FERRAMENTAS COMO; nmap metasploit-framework hydra aircrack-ng john sqlmap wireshark whois tcpdump ncat netcat whatweb gobuster bettercap tshark**
 
 
-🐧PARA INSTALAR FERRAMENTAS DO KALI NO ARCH LINUX DE ESSES COMANDOS:
+## **🐧PARA INSTALAR FERRAMENTAS DO KALI LINUX NO ARCH LINUX DE ESSES COMANDOS:**
 
 sudo pacman -S curl
 
@@ -25,4 +25,4 @@ sudo su
 
 bash strap.sh
 
-sudo pacman -S nmap metasploit hydra aircrack-ng john sqlmap burpsuite wireshark-qt whatweb
+sudo pacman -S nmap metasploit-framework hydra aircrack-ng john sqlmap wireshark whois tcpdump ncat netcat whatweb gobuster bettercap tshark
